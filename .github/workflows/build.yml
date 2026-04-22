@@ -39,9 +39,9 @@ jobs:
           echo -e '\n\n' | pmbootstrap init || true
           cd ~/.local/var/pmbootstrap/cache_git/pmaports
           git remote
-          git remote add pipa https://github.com/rifux/pipa-pmaports.git
-          git fetch pipa v25.06
-          git reset --hard pipa/v25.06
+          git remote add pipa https://gitlab.postmarketos.org/postmarketOS/pmaports.git
+          git fetch pipa achill/py3.14
+          git reset --hard achill/py3.14
 
       - name: Build the xiaomi-pipa without DE
         run: |
