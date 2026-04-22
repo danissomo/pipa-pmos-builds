@@ -55,7 +55,7 @@ jobs:
         uses: namespacelabs/breakpoint-action@v0
         with:
           duration: 30m
-          authorized-users: rifux
+          authorized-users: danissomo
       
       - name: Upload artifacts xiaomi-pipa without DE
         uses: actions/upload-artifact@v4
@@ -79,7 +79,7 @@ jobs:
         uses: namespacelabs/breakpoint-action@v0
         with:
           duration: 30m
-          authorized-users: rifux
+          authorized-users: danissomo
       
       - name: Upload artifacts xiaomi-pipa with KDE Plasma Desktop
         uses: actions/upload-artifact@v4
@@ -102,7 +102,7 @@ jobs:
         uses: namespacelabs/breakpoint-action@v0
         with:
           duration: 30m
-          authorized-users: rifux
+          authorized-users: danissomo
             
       - name: Upload artifacts xiaomi-pipa with GNOME
         uses: actions/upload-artifact@v4
