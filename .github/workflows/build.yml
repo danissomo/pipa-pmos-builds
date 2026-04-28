@@ -37,7 +37,7 @@ jobs:
       - name: Set up pmaports
         run: |
           echo -e '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n' | pmbootstrap init || true
-          git clone --depth=1 https://gitlab.postmarketos.org/postmarketOS/pmaports.git
+          git clone https://gitlab.postmarketos.org/postmarketOS/pmaports.git
           cd pmaports
           git checkout achill/py3.14
           git apply ../*.patch
