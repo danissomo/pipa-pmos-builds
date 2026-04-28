@@ -36,7 +36,7 @@ jobs:
 
       - name: Set up pmaports
         run: |
-          echo -e '\n\n' | pmbootstrap init || true
+          echo -e '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n' | pmbootstrap init || true
           git clone --depth=1 https://gitlab.postmarketos.org/postmarketOS/pmaports.git
           git apply --directory=pmaports/ patches/*.patch
           pmbootstrap config aports $(pwd)/pmaports
