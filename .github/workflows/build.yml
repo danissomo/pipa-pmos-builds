@@ -39,9 +39,8 @@ jobs:
           echo -e '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n' | pmbootstrap init || true
           git clone https://gitlab.postmarketos.org/postmarketOS/pmaports.git
           cd pmaports
-          git checkout achill/py3.14
           git apply ../*.patch
-          cd ../
+          cd -
           pmbootstrap config aports $(pwd)/pmaports
 
 
