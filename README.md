@@ -10,7 +10,6 @@
 ## 🌟 Features 
 
 - **Supported Desktop Environments**  
-  * KDE Plasma Desktop  
   * GNOME Shell
   * Minimal base system (no DE)
 
@@ -19,14 +18,15 @@
   ✅ Kernel packages included  
   ✅ Verified device support
 
+- **Nanosic keyboard patch**
 ---
 
 ## 🔐 Login Credentials
 
 Default System Credentials
   
-- **Username:** `user`  
-- **Password:** `147147` (for initial setup)
+- **Username:** `pipa`  
+- **Password:** `pipa` (for initial setup)
 
 
 ---
@@ -35,13 +35,11 @@ Default System Credentials
 
 GitHub Actions Artifacts
   
-1. Visit our [Actions tab](https://github.com/rifux/pipa-pmos-builds/actions)   
+1. Visit our [Actions tab](https://github.com/danissomo/pipa-pmos-builds/actions)   
 2. Look for the latest workflow run (marked with 🟢)  
 3. Download the desired image:
   - `xiaomi-pipa-none_*.zip` (minimal system)
-  - `xiaomi-pipa-plasma_*.zip` (KDE Plasma)
   - `xiaomi-pipa-gnome_*.zip` (GNOME Shell)
-  - `xiaomi-pipa-kernel_*.zip` (kernel packages)
   
 *Note:* GitHub account required for downloads
 
