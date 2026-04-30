@@ -88,9 +88,3 @@ jobs:
            path: out/*.img*
            retention-days: 7
                        
-
-
-
-        
-
-        
