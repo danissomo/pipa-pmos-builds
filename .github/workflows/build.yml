@@ -40,6 +40,8 @@ jobs:
           git clone https://gitlab.postmarketos.org/postmarketOS/pmaports.git
           cd pmaports
           git apply ../*.patch
+          git diff
+          pmbootstrap build linux-xiaomi-pipa
           cd -
           pmbootstrap config aports $(pwd)/pmaports
 
