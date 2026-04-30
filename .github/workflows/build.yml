@@ -43,7 +43,6 @@ jobs:
           git diff
           cd -
           pmbootstrap config aports $(pwd)/pmaports
-          pmbootstrap build linux-xiaomi-pipa
 
 
       - name: Build the xiaomi-pipa without DE
